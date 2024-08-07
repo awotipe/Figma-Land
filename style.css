@@ -41,6 +41,17 @@ li:hover {
   color: yellow;
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+a:hover {
+  color: yellow;
+}
+
 form input {
   border-radius: 39px;
   padding: 1rem;
@@ -579,3 +590,4 @@ footer{
 .footImage img{
   width: 100%;
 }
+
