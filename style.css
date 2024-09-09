@@ -78,7 +78,22 @@ nav button:hover {
 .hero {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  /* gap: 2rem; */
+}
+
+.heroText{
+  width: 40%;
+  margin: auto;
+}
+
+.heroImage{
+  width: 60%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.heroImage img{
+  width: 100%;
 }
 
 .heroText h2 {
@@ -95,7 +110,7 @@ nav button:hover {
   font-weight: 400;
   line-height: 35px;
   color: rgba(255, 255, 255, 0.8);
-  width: 60%;
+  width: 55%;
   padding-top: 1rem;
   padding-bottom: 3rem;
 }
@@ -348,7 +363,7 @@ nav button:hover {
 
 .free p {
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 33px;
 }
@@ -561,7 +576,7 @@ footer{
   padding-bottom: 1rem;
 }
 
-.pages H4{
+.pages h4{
   font-family: Roboto;
   font-size: 22px;
   font-weight: 700;
@@ -591,3 +606,353 @@ footer{
   width: 100%;
 }
 
+
+
+@media screen and (max-width: 1024px){  
+  nav button {
+    padding: 1rem;
+  }
+
+  .heroText p {
+    width: 80%;
+  }
+
+  .flexFeatures {
+    gap: 1rem;
+  }
+
+  .wrapText h3 {
+    width: 90%;
+  }
+
+  .wrap p {
+    font-size: 16px;
+  }
+
+  .prototypeText p {
+    width: 75%;
+  }
+
+  .topPartner p {
+    width: 50%;
+  }
+
+  .clients p {
+    width: 100%;
+  }
+
+  .topContact p {
+    width: 50%;
+  }
+
+  .ads{
+    width: 80%;
+  }
+
+  .pages{
+    width: 25%;
+  }
+
+  .footImage{
+    width: 40%;
+  }
+
+  .ads1{
+    width: 100%;
+  }
+
+  .addressText1 p{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  nav{
+    display: none;
+  }
+
+  .heroImage{
+    width: 60%;
+    margin-top: 2rem;
+  }
+
+  .heroText{
+    width: 40%;
+  }
+  
+  .heroText h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40.5px;
+  }
+  
+  .heroText p {
+    width: 90%;
+    font-size: 14px;
+    padding-bottom: 1rem;
+  }
+  
+  .heroText button {
+    font-size: 16px;
+    padding: 0.6rem 2rem;
+  }
+  
+
+  .topFeatures p {
+    width: 58%;
+  }
+
+  .wrapFlex {
+    gap: 0.5rem;
+  }
+  
+  .wrapImage {
+    width: 30%;
+  }
+  
+  .wrapText {
+    width: 70%;
+  }
+  
+  .wrapText h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .wrap p {
+    font-size: 14px;
+  }
+
+  .prototypeText h2 {
+    font-size: 44px;
+    width: 90%;
+  }
+  
+  .prototypeText p {
+    width: 95%;
+  }
+
+  .topPartner p {
+    width: 65%;
+  }
+
+  .clientFlex {
+    gap: 2rem;
+  }
+  
+  .clientImage {
+    margin: 1rem 0;
+  }
+  
+  .clients p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .partners {
+    width: 70%;
+    margin: auto;
+  }
+
+  .topPricing p {
+    width: 52%;
+  }
+
+  .priceCard {
+    width: 100%;
+    /* height: 50vh; */
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    box-shadow: 0px 23px 19px 0px rgba(0, 0, 0, 0.07);
+  }
+  
+  .free p {
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 425px){
+  .headerHero {
+    height: 170vh;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .heroText{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .heroImage{
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    margin-top: -23rem;
+  }
+  
+  .heroText h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .heroText p {
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .heroText button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.5rem 2.5rem;
+    margin-top: 17rem;
+    background: rgba(56, 163, 241, 0.8);
+    color: #fff;
+  }
+
+  .heroText button:hover {
+    background: #fff;
+    color: rgba(56, 163, 241, 0.8);
+  }
+
+  .topFeatures p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .flexFeatures {
+    display: block;
+  }
+
+  .wrapImage {
+    width: 20%;
+  }
+  
+  .wrapText {
+    width: 80%;
+  }
+
+  .wrap{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  .prototypeText {
+    width: 100%;
+  }
+
+  .prototypeText h2 {
+    font-size: 46px;
+    width: 100%;
+
+  }
+  
+  .prototypeText p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .prototypeImage{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .topPartner p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .clientFlex {
+    display: block;
+  }
+
+  .clients p {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  .topPricing p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .pricingCards {
+    display: block;
+  }
+
+  .priceCard {
+    height: 65vh;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .topContact p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .contactFlex{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .contactForm{
+    width: 100%;
+    border-radius: 10px;
+    padding: 3rem;
+  }
+  
+    .location{
+    width: 75%;
+    margin: auto;
+  }
+
+  footer{
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding: 4rem 0;
+  }
+
+  .pages{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footImage{
+    width: 100%;
+    margin: 4rem 0;
+  }
+  
+  .location1{
+    width: 65%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 375px){
+  .wrap{
+    width: 85%;
+  }
+
+  .topContact h2 {
+    font-size: 40px;
+  }
+}
